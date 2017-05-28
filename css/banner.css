@@ -1,0 +1,154 @@
+h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 36px;
+      }
+body{
+    font-family: 'Roboto',sans-serif;
+        font-size: 18px;
+}
+.Banner {
+  text-align: center;
+    position: static;
+  width: 100%;
+  height: 31%;
+  background-color: black;
+}
+
+.content {
+    padding-left:20%; 
+    padding-right: 20%;
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+.BannerLeft {
+    padding-right: 20%;
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+.BannerLeft img{
+    float:left;
+}
+.bannerLeft p{
+    width:50%
+}
+.content ul{
+    list-style-image: url('Images/checkmark.png');
+    list-style-position: inside;
+
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonLarge {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+.portfolio {
+    padding-left:20%; 
+    padding-right: 20%;
+    overflow: hidden;
+    background-color: #3F3F3F;
+        text-align: center;
+
+}
+.portfolio a:link{
+    text-decoration: none;
+}
+.portfolio a:visited{
+    text-decoration: none;
+        color: black;
+
+}
+.portfolio h1{
+    color: white;
+     font-family: 'Roboto Slab', serif;
+        font-size: 36px;
+}
+.card{
+  float: left;
+  width: 300px;
+ overflow:hidden;
+  background: rgb(242,242,242);
+  border-radius: 8px;
+  box-shadow: 8px;
+  margin: 30px;
+}
+.card__content{
+  display: block;
+  font-size: 2.47rem;
+  height: 60;
+  overflow: hidden;
+}
+.Manier-van-werken {
+    padding-left:20%; 
+    padding-right: 20%;
+    overflow: hidden;
+    background-color: #A8A8A8;
+        text-align: center;
+}
+.Manier-van-werken h1{
+    color: black;
+     font-family: 'Roboto Slab', serif;
+        font-size: 36px;
+}
+.card2{
+  float: left;
+  width: 300px;
+ overflow:hidden;
+  background: rgb(242,242,242);
+  border-radius: 8px;
+  box-shadow: 8px;
+  margin: 20px;
+}
+.work__content{
+  display: block;
+  font-size: 18px;
+  height: 80px;
+  overflow: hidden;
+}
